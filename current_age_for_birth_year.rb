@@ -1,5 +1,6 @@
-def current_age_for_birth_year(age)
-  newage = 2003-age
-  return(newage)
+def current_age_for_birth_year(birth_year)
+
+  return Time.now.year - birth_year
+  
 
   end
